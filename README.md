@@ -10,7 +10,7 @@ This paper has been submitted for presentation in *2102499: Electrical Engineeri
 
 ## Abstract
 
-> Intraday solar power forecasting is crucial to ensuring power continuity and economical dispatch in PV systems.
+Intraday solar power forecasting is crucial to ensuring power continuity and economical dispatch in PV systems.
 This study is focused on an `4-hour ahead solar power forecasting` in a resolution of 30 min. We present 2 approaches,
 namely, `indirect approach` and `direct approach` which are forecasting solar power via irradiance prediction and PV
 conversion and forecasting solar power directly respectively. The proposed models for the two approaches are split
