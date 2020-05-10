@@ -31,10 +31,10 @@ A clear sky models estimates the terrestrial solar radiation under a **cloudless
 
 ### Forecasting approach
 1. `indirect approach`:  forecasting solar power via irradiance prediction and PV conversion
-![](manuscript/figures/indirect_approach.png)
+![](figures/indirect_approach.png)
 
 2. `direct approach`:  forecasting solar power directly respectively.
-![](manuscript/figures/direct_approach.png)
+![](figures/direct_approach.png)
 
 the experiments in this 2 approaches can be found in `code/forecasting_model` folder and to get in detail you can read on `documentation/intraday_report`
 
