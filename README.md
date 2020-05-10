@@ -8,6 +8,9 @@ This paper has been submitted for presentation in *2102499: Electrical Engineeri
 
 > This study is divided into two parts: to study the relevant variables of intraday solar irradiance foresting (clear sky model), and to compare forecasting models including `Linear regression`, `MARS`, `ANN` (baseline model), `SVR`, `Random forest` (proposed model).
 
+![](manuscript/figures/forecast_config.png)
+
+figure above show an example of the forecast configuration in this paper
 ## Abstract
 
 Intraday solar power forecasting is crucial to ensuring power continuity and economical dispatch in PV systems.
