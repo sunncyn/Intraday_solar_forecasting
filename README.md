@@ -6,7 +6,7 @@ Chayanont P.,
 
 This paper has been submitted for presentation in *2102499: Electrical Engineering Project*.
 
-> This study is divided into two parts: to study the relevant variables of intraday solar irradiance foresting (clear sky model) , and to compare forecasting models including `Linear regression`, `MARS`, `ANN` (baseline model), `SVR`, `Random forest` (proposed model).
+> This study is divided into two parts: to study the relevant variables of intraday solar irradiance foresting (clear sky model), and to compare forecasting models including `Linear regression`, `MARS`, `ANN` (baseline model), `SVR`, `Random forest` (proposed model).
 
 ## Abstract
 
@@ -18,9 +18,17 @@ and responsible for providing predictions at three different times of the days: 
 work, we develop SVR and RF models and compare the performance to baseline models which are linear regression,
 MARs and ANN models. All models are designed to produce intraday solar power forecasts using ground data which
 were collected from two measurement stations in central region of Thailand from 2017-2018. The result shows that the
-direct approach yielded better performance, achieving NRMSE of **7.14%** and **6.93%**, compared to the indirect approach
-which achieved NRMSE of **6.40%** and **6.02%** on `SVR` and `RF` model respectively. The best model in terms of forecast
+direct approach yielded better performance, achieving NRMSE of 7.14% and 6.93%, compared to the indirect approach
+which achieved NRMSE of 6.40% and 6.02% on `SVR` and `RF` model respectively. The best model in terms of forecast
 accuracy is achieved by the random forest model that directly predicts solar power.
+
+## Methodology
+### Clear sky model
+A clear sky models estimates the terrestrial solar radiation under a **cloudless sky** as a function of the solar elevation angle and various atmospheric conditions. the estimated irradiance can be use as a `predictor` in intraday solar irradiance forecasting. The clear sky detection algorithm was proposed since some clear sky models need measurement data to estimated the coefficinet in the equation. 
+
+### Forecasting approach
+to be continues
+
 
 
 
