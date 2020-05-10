@@ -24,13 +24,17 @@ accuracy is achieved by the random forest model that directly predicts solar pow
 
 ## Methodology
 ### Clear sky model
-A clear sky models estimates the terrestrial solar radiation under a **cloudless sky** as a function of the solar elevation angle and various atmospheric conditions. the estimated irradiance can be use as a `predictor` in intraday solar irradiance forecasting. The clear sky detection algorithm was proposed since some clear sky models need measurement data to estimated the coefficinet in the equation. 
+A clear sky models estimates the terrestrial solar radiation under a **cloudless sky** as a function of the solar elevation angle and various atmospheric conditions. the estimated irradiance can be use as a `predictor` in intraday solar irradiance forecasting. The clear sky detection algorithm was proposed since some clear sky models need measurement data to estimate the coefficinet in the equation. the clear sky models and detection algorithm were written in matlab, python (ipynb) respectively which can be found in `code/clearsky_model` folder
 
 ### Forecasting approach
-to be continues
+1. `indirect approach`:  forecasting solar power via irradiance prediction and PV conversion
+![](manuscript/figures/indirect_approach.png)
 
+2. `direct approach`:  forecasting solar power directly respectively.
+![](manuscript/figures/direct_approach.png)
 
+the experiments in this 2 approaches can be found in `code/forecasting_model` folder and to get in detail you can read on `documentation/intraday_report`
 
 
 ## Acknowledgement
-This study would not have been possible without the support of our advisor: Assist. Prof. Jitkomut Songsiri , family and friends. The dataset in this study was supported by Smart Grid Research Unit (SGRU) at chulalongkorn university.
+This study would not have been possible without the support of our advisor: Assist. Prof. Jitkomut Songsiri , family and friends. The dataset in this study was supported by Smart Grid Research Unit (SGRU) at chulalongkorn university. 
